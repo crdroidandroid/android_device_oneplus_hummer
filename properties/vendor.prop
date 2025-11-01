@@ -1,5 +1,8 @@
 # Bluetooth
 bluetooth.device.default_name=OnePlus Ace 5 Pro
 
+# Device name
+ro.product.marketname=OnePlus Ace 5 Pro
+
 # USB
 vendor.usb.product_string=OnePlus Ace 5 Pro
