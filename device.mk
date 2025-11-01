@@ -28,6 +28,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946685746860179.xml
 
 # Fingerprint
+TARGET_HAS_UDFPS := true
+
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/oplus:libudfps_extension.oplus)
 $(call soong_config_set_bool,qtidisplay,oplus_udfps,true)
 
